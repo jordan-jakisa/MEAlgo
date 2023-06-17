@@ -14,20 +14,6 @@ The Gale-Shapley algorithm operates in several rounds, with men proposing to the
 
 To illustrate the algorithm, let's consider the example of matching four kings and four queens. The algorithm starts with each man proposing to his top choice among the available women. If a woman receives multiple proposals, she chooses her favorite among them. The rejected men proceed to the next round and propose to their next preferred choices. Similarly, women without partners, if receiving multiple proposals, select their favorite from the available options. This process continues until every person is matched, ensuring a stable match.
 
-## Repository Contents
-
-- `gale_shapley.py`: Contains the implementation of the Gale-Shapley algorithm in Python.
-- `unit_tests.py`: Provides unit tests to validate the correctness of the algorithm implementation.
-- `README.md`: The file you are currently reading, providing an overview of the repository and the algorithm.
-
-## Getting Started
-
-To understand the Gale-Shapley algorithm and its step-by-step execution, please refer to the `gale_shapley.py` file. The code is accompanied by detailed explanations, making it easy to grasp the underlying concepts.
-
-## Running Unit Tests
-
-To ensure the correctness of the implementation, unit tests are provided in the `unit_tests.py` file. These tests validate the algorithm against various scenarios, verifying that it produces the expected results. You can run the unit tests using a Python testing framework of your choice.
-
 ## Contribution
 
 Contributions to this repository are welcome. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. Together, we can enhance the algorithm implementation and expand its applications.
