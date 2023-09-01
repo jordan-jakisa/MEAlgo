@@ -4,14 +4,13 @@ def searchInsert(nums, target):
     while left <= right:
         mid = left + (right - left) // 2
 
-        if (nums[mid]) == target:
-            return mid
+        if nums[mid] == target:
+            return target
         elif nums[mid] < target:
-            left = mid + 1
+            left  = mid + 1
         else:
             right = mid - 1
     return left
-
 
 # Test cases
 nums1 = [1, 3, 5, 6]
